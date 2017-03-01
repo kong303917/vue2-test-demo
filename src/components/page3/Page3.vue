@@ -44,6 +44,7 @@
             </template>
           </el-table-column>
         </el-table>
+        <el-pagination :page-size="20" layout="prev, pager, next, jumper" :total="200" style="text-align: center;"></el-pagination>
       </el-tab-pane>
       <el-tab-pane label="企业" name="second">企业</el-tab-pane>
       <el-tab-pane label="人员" name="third">人员</el-tab-pane>
