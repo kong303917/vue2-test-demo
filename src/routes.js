@@ -6,15 +6,19 @@ import Page3 from './components/page3/Page3.vue';
 export default [
   {
     path: '/',
+    name: 'home',
     component: Home,
   }, {
     path: '/page1',
+    name: 'page1',
     component: Page1,
   }, {
     path: '/page2',
+    name: 'page2',
     component: Page2,
   }, {
     path: '/page3',
+    name: 'page3',
     component: Page3,
   },
 ];

@@ -1,5 +1,5 @@
 <template lang="html">
-  <el-menu default-active="1" id="nav-menu" theme="dark">
+  <el-menu default-active="1" id="nav-menu" theme="dark" router="true">
     <div class="logo">
       <router-link to="/">
         <img src="../../assets/images/logo.svg" />
@@ -7,9 +7,9 @@
     </div>
     <el-submenu index="1">
       <template slot="title"><i class="el-icon-menu"></i>系统管理</template>
-      <el-menu-item index="1-1"><router-link to="/page1" class="nav-link">系统管理1</router-link></el-menu-item>
-      <el-menu-item index="1-2"><router-link to="/page2" class="nav-link">系统管理2</router-link></el-menu-item>
+      <el-menu-item index="page1">系统管理1</el-menu-item>
+      <el-menu-item index="page2">系统管理2</el-menu-item>
     </el-submenu>
-    <el-menu-item index="2"><router-link to="/page3" class="nav-link"><i class="el-icon-message"></i>公司管理</router-link></el-menu-item>
+    <el-menu-item index="page3"><i class="el-icon-message"></i>公司管理</el-menu-item>
   </el-menu>
 </template>
