@@ -32,13 +32,13 @@
     <el-tabs v-model="tabActive">
       <el-tab-pane label="待审核" name="first">
         <el-table :data="tableData" style="width:100%">
-          <el-table-column prop="companyName" label="企业名称" width="210"></el-table-column>
-          <el-table-column prop="linkMan" label="联系人" width="210"></el-table-column>
-          <el-table-column prop="phone" label="联系方式" width="210"></el-table-column>
-          <el-table-column prop="szstatus" label="三证状态" width="210"></el-table-column>
-          <el-table-column prop="sqsstatus" label="授权书状态" width="210"></el-table-column>
-          <el-table-column prop="time" label="创建时间" width="210"></el-table-column>
-          <el-table-column label="操作" width="180">
+          <el-table-column prop="companyName" label="企业名称" style="width:15%;"></el-table-column>
+          <el-table-column prop="linkMan" label="联系人" style="width:15%;"></el-table-column>
+          <el-table-column prop="phone" label="联系方式" style="width:15%;"></el-table-column>
+          <el-table-column prop="szstatus" label="三证状态" style="width:15%;"></el-table-column>
+          <el-table-column prop="sqsstatus" label="授权书状态" style="width:15%;"></el-table-column>
+          <el-table-column prop="time" label="创建时间" style="width:15%;"></el-table-column>
+          <el-table-column label="操作" style="width:10%;">
             <template scope="scope">
               <el-button type="text" size="small">查看</el-button>
             </template>
