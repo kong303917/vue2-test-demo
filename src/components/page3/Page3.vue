@@ -118,7 +118,6 @@ export default {
 
 <style lang="scss" scoped>
 .page {
-  width:100%;
   padding: 20px;
 }
 </style>
