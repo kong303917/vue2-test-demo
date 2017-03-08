@@ -1,5 +1,5 @@
 <template lang="html">
-  <el-menu default-active="1" id="nav-menu" theme="light" router="true">
+  <el-menu default-active="1" id="nav-menu" theme="light" router>
     <div class="logo">
       <router-link to="/">
         <img src="../../assets/images/logo.svg" />
